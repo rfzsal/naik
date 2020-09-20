@@ -1,0 +1,166 @@
+/* custom css */
+.btn-cap {
+    text-transform: capitalize !important;
+}
+.pink-hover :hover {
+    color: #e91e63 !important;
+}
+.pink-hover :active {
+    color: white !important;
+}
+.pink-darken-hover :hover {
+    background-color: #ad1457 !important;
+    color: white !important;
+}
+.button-hover:hover {
+    background: #ad1457 !important;
+}
+ul.li-horizontal > li {
+    margin-right: 15px !important;
+    display:inline !important;
+    display:inline-block !important;
+    zoom:1 !important;
+}
+.search-block {
+    display: block !important;
+    background-color: white !important;
+    height: 35px !important;
+    width: 100% !important;
+    border: 0 !important;
+    padding: 5px !important;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+.search-block:focus {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    box-shadow: none !important;
+}
+.search-block::placeholder {
+    color: gray !important;
+    text-align: center !important;
+}
+.search-block::-webkit-input-placeholder {
+    color: gray !important;
+    text-align: center !important;
+}
+.search-block::-moz-placeholder {
+    color: gray !important;
+    text-align: center !important;
+}
+.search-block:-moz-placeholder {
+    color: gray !important;
+    text-align: center !important;
+}
+.search-block:-ms-input-placeholder {
+    color: gray !important;
+    text-align: center !important;
+}
+.centered {
+    position: absolute !important;
+    width: 300px !important;
+    height: 300px !important;
+    top: 30% !important;
+    left: 50% !important;
+    margin-left: -150px !important;
+    margin-top: -150px !important;
+}
+.input-field input[type=password]:focus + label {
+    color: #e91e63 !important;
+}
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+.input-field input[type=text]:focus + label {
+    color: #e91e63 !important;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+.err {
+    color: #F44336 !important;
+}
+ul.bread {
+    padding: 10px 16px !important;
+    list-style: none !important;
+}
+ul.bread li {
+    display: inline !important;
+    font-size: 16px !important;
+}
+ul.bread li+li:before {
+    padding: 8px !important;
+    color: #bdbdbd !important;
+    font-size: 14px !important;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105" !important;
+}
+ul.bread li a {
+    color: #bdbdbd !important;
+    text-decoration: none !important;
+}
+ul.bread li a:hover {
+    color: #e91e63 !important;
+    text-decoration: none !important;
+}
+ul.bread li.active {
+    color: #212121 !important;
+}
+.hover-pink:hover {
+    background-color: #e91e63 !important;
+    color: white !important;
+}
+.hover-white:hover {
+    background-color: #eeeeee !important;
+}
+.hover-fade {
+    -webkit-transition: opacity .5s !important;
+    transition: opacity .5s !important;
+}
+.hover-fade:hover:not(.active) {
+    opacity: .5 !important;
+}
+.btn-wide {
+    width: 100% !important;
+}
+.txt-cap {
+    text-transform: capitalize !important;
+}
+.btn-outline {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #e91e63 !important;
+    background-color: white !important;
+}
+.scs {
+    color: #4CAF50 !important;
+}
+@media only screen and (min-width: 601px) {
+    .card-med {
+        width: 400px !important;
+    }
+}
+@media only screen and (min-width: 401px) {
+    .card-med2 {
+        width: 325px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mtop-5 {
+        margin-top: 10px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card-sm {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .card-sm2 {
+        width: 100% !important;
+    }
+}
+blockquote {
+    border-left: 5px solid #e91e63 !important;
+}
